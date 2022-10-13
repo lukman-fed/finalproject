@@ -1,0 +1,130 @@
+body {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #116ea0d4;
+
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+    list-style-type: none;
+
+}
+
+nav ul li {
+    padding: 1em;
+
+}
+
+nav ul li a {
+    padding: 1em;
+}
+
+a {
+    color: #fafafa;
+}
+
+a:hover {
+    color: #F4991A;
+    background-color: #F9F5F0;
+}
+
+
+#home {
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    background-color: #2b5b78;
+    background-size: cover;
+    color: #05cef6;
+    padding: 7em;
+    margin: 0;
+}
+
+#home h3{
+    color: #ddc239;
+}
+
+#about {
+    padding: 2em;
+    background-color: #F2EAD3;
+}
+
+
+#mycollections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #2b5b78;
+    padding: 1em;
+}
+
+#mycollections img {
+    width: 250px;
+    height: 280px;
+    margin: 0.2em;
+    border: 1em solid #F2EAD3;
+    border-radius: 0.2em;
+
+}
+
+#myteams {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    background-color: #F2EAD3;
+}
+
+#myteams img {
+    width: 250px;
+    height: 280px;
+    margin: 0.2em;
+    border: 1em solid #F2EAD3;
+}
+
+#testimoni {
+    background-color: #2b5b78;
+    padding: 1em;
+
+}
+
+#testimoni h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#post-comment {
+    margin-top: 0em;
+    border-top: 2px dotted #F2EAD3;
+}
+
+#contact {
+    background-color:#116ea0d4;
+    color: #fefefe;
+    padding: 1.5em;
+    display: flex;
+}
+
+#contact h6 {
+    font-weight: bold;
+}
+
+#contact p {
+    margin: 0;   
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0.5em;
+    text-align: center;
+}
